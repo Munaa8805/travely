@@ -1,0 +1,12 @@
+
+.container{
+    background-color: red;
+    
+}
+.wrapper{
+    background-color: blue;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}

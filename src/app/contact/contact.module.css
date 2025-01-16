@@ -1,0 +1,73 @@
+.main {
+    color: #BCC4CDFF;
+    background-color: #1A1D24;
+
+    padding: 2rem;
+    margin: 2rem auto;
+    width: 30rem;
+    border-radius: 0.5rem;
+    text-align: center;
+
+}
+.main form {
+    text-align: center;
+    width: 100%;
+}
+.main form div {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wrapper label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* margin: 0.5rem; */
+    width: 100%;
+    text-align: left;
+}
+.wrapper input  {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #BCC4CDFF;
+}
+.wrapper textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #BCC4CDFF;
+}
+ .btnwrapper{
+
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+.btnwrapper button {
+  padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+     color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.btnwrapper button[type="submit"] {
+  
+    background-color: #ff8a05;
+   
+}
+.btnwrapper button[type="text"] {
+
+    background-color: #EDA14BFF;
+ 
+}

@@ -1,0 +1,33 @@
+.footer {
+background-color: #f8f9fa;
+color: #495057;
+padding: 1rem 0.5rem;
+position: fixed;
+bottom: 0;
+width: 100%;
+
+
+
+}
+.footer p {
+    font-size: 1.25rem;
+    width: 100%;
+    text-align: center;
+}
+.footer a {
+    cursor: pointer;
+    color: #ff8a05;
+    text-decoration: none;
+    font-weight: 600;
+    transition:all 0.3s ease-in-out;
+
+}
+.footer a:hover {
+
+    background: linear-gradient(90deg, #ff8a05, #f9b331);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 18px rgba(248, 190, 42, 0.8);
+  
+}   
